@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    background-image:url(./img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Pic{
+    /* position: absolute;  */
+   margin-top: 10px;
+   margin-left: 25px;  
+}
+
+h1{
+    text-shadow: 2px 0px black;
+    color:olivedrab;
+     position: absolute;
+    margin-left: 12.5px; 
+    font-size: 45px;   
+    
+}
+#head{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.3);
+}
+ul{
+    padding:0;
+    margin: 0 0 0 150px;
+    text-align: center;
+} 
+ .navbar{
+    
+    list-style: none; 
+    text-align: center; 
+} 
+ .item{
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+    width:10rem;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    transition: 0.3s;
+   
+} 
+ a{
+    color:black;
+    text-decoration:none;
+    display: block;
+
+} 
+.item:hover{
+    background-color:  greenyellow;
+    height: 100px;
+    
+} 
+.box{
+    width: 70%;
+    height: auto;
+    background-color: greenyellow; 
+}
+h2{
+    margin-left: 20px;
+    padding-top: 15px; 
+    color: darkblue;
+}
+h4{
+    margin-left:100px;
+    font-size: 25px;
+}
+.mySlides{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 500px;
+}
+#back{
+    background-color: rgba(0, 0, 255, 0.3);
+   
+}
+/* .search[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 35px;
+    margin-right: 100px;
+    font-size: 17px;
+  }
+  .search-container {
+    float: right;
+  }
+  input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container button:hover {
+    background: #ccc;
+  } */

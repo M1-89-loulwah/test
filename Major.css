@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    background-image:url(./img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Pic{
+    /* position: absolute;  */
+   margin-top: 10px;
+   margin-left: 25px;  
+}
+
+h1{
+    text-shadow: 2px 0px black;
+    color:olivedrab;
+     position: absolute;
+    margin-left: 12.5px; 
+    font-size: 45px;   
+    
+}
+#head{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.3);
+   
+}
+ul{
+    padding:0;
+    margin: 0 0 0 150px;
+    text-align: center;
+} 
+ .navbar{
+    
+    list-style: none; 
+    text-align: center; 
+} 
+ .item{
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+    width:10rem;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    transition: 0.3s;
+   
+} 
+ a{
+    color :black;
+    text-decoration:none;
+    display: block;
+
+} 
+.item:hover{
+    background-color: greenyellow;
+    height: 100px;
+    
+} 
+.containerA{
+    width: 90%;
+    padding: 10px;
+    margin: 100px auto;
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    width: 600px;
+    height: 630px;
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 15px 50px 30px;
+    margin:0px 10px;
+    transition: 1s;
+}
+.box:hover{
+    transform: scale(1.3);
+}
+.major{
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-weight: bold;  
+}
+h2 {
+    color:black;
+    font-weight: bold;
+}
+h3{
+    color: blue;
+    font-weight: bold;
+}
+li{
+    font-size: 20px;
+}
+p{
+    color: greenyellow;
+    font-weight: bolder;
+}
+

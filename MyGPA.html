@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP Calculator</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="MyGPA.css">
+    <link rel="icon" href="./img/knowledge.png">
+</head>
+<body>
+    <img id="Pic" src="./img/knowledge.png" alt="" srcset="">
+    
+    <h1 class="logo"><b><i>MyUniversity</i></b></h1>
+
+    <div id="head">
+
+        <nav class="navbar">
+            <ul>
+                <li class="item"><a href="./MyUniversity.html">Home</a></li>
+                <li class="item"><a href="./Univerties.html">Universities</a></li>
+                <li class="item"><a href="./Majors.html">Majors</a></li>
+                <li class="item"><a href="./MyGPA.html">MyGPA</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="center">
+    <div class="wrapper">
+        <h2>GPA Calculator</h2>
+        <div class="form-row">
+            <div class="col">
+                <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+            </div>
+            <div class="col">
+                <input id="unit-load" class="form-control" type="number" placeholder="Credits" min="1" max="10">
+            </div>
+            <div class="col">
+                <select id="grade" class="form-control">
+                    <option >Grade</option>
+                    <option value="4">A</option>
+                    <option value="3.67">A-</option>
+                    <option value="3.33">B+</option>
+                    <option value="3.00">B</option>
+                    <option value="2.67">B-</option>
+                    <option value="2.33">C+</option>
+                    <option value="2">C</option>
+                    <option value="1.67">C-</option>
+                    <option value="1.33">D+</option>
+                    <option value="1">D</option>
+                    <option value="0.7">D-</option> 
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div class="col">
+                <input id="add" class="btn btn-primary" type="button" value="Add">
+
+            </div>
+        </div>
+        <table id="table" class="table table-bordered display-none">
+            <thead>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Credits</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+        
+            </tbody>
+            <tfoot id="tfoot">
+        
+            </tfoot>
+        </table>
+        <div class="row">
+            <div class="col">
+                <input id="calc-gp" class="btn btn-success display-none" type="button" value="Calculate GPA">
+            </div>
+            <div class="col">
+            <input id="clear" class="btn btn-warning display-none" type="button" value="Clear">
+            </div>
+        </div>
+    </div>
+</div> 
+    <script src="MyGPA.js"></script>
+</body>
+</html>
